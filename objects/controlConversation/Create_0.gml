@@ -1,4 +1,4 @@
-timeTillNext = 2 * room_speed; // 2 seconds
+timeTillNext = 0;
 
 objPersonA.isTalking = true;
 objPersonB.isTalking = false;

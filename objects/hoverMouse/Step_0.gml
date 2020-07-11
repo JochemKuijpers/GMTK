@@ -24,4 +24,4 @@ if(timeHovered >= 100){
 	isPlaying = false
 }
 
-show_debug_message(timeHovered)
+// show_debug_message(timeHovered)

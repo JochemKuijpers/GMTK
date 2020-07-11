@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "27308217-17e6-48fd-b96b-581eca58efd5",
+            "Value": {
+                "id": "6d39a9c4-4371-4dd6-9cb3-d64c03a447c8",
+                "resourcePath": "objects\\stressBar\\stressBar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2e00634e-8640-4f56-966a-68b9b7122650",
             "Value": {
                 "id": "b7cf9f5d-892b-4200-a0fc-bf7ed3cd9611",
@@ -292,6 +300,14 @@
                 "id": "73d20baa-e7f5-460d-8048-9f19d69bb701",
                 "resourcePath": "views\\c24285f8-01cc-4dd1-8d24-d066cabf483c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c66615e8-aaee-4e7e-a8cf-43e98b87afcb",
+            "Value": {
+                "id": "2bc1cff7-60c9-453b-b595-8a49b70948c6",
+                "resourcePath": "sprites\\stressBarSprite\\stressBarSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

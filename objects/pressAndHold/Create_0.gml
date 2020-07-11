@@ -1,5 +1,6 @@
 isPlaying = false
 stepsSincePressed = 0
-buttonToPress =  ord("E")
+buttonOne = ord("E")
+buttonTwo = ord("R")
 
 stressModifier = 0

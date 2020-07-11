@@ -22,10 +22,12 @@ if(stepsSincePressed >= 100 && isPlaying){
 	isPlaying = false
 }
 
-if(keyboard_check(buttonToPress)){
+if(keyboard_check(buttonOne) && keyboard_check(buttonTwo)){
 	stepsSincePressed += 1
 }
 
-if(keyboard_check_released(buttonToPress)){
+if(keyboard_check_released(buttonOne) || keyboard_check_released(buttonTwo)){
 	stepsSincePressed = 0
 }
+
+show_debug_message(stepsSincePressed)

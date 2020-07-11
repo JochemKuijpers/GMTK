@@ -12,6 +12,4 @@ if(currentStress > 1000){
 	currentStress = 0
 }
 
-show_debug_message(stressModifier)
-
 currentStress += stressModifier

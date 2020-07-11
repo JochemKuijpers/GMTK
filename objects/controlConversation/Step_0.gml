@@ -7,12 +7,14 @@ if (timeTillNext <= 0) {
 	if (objPersonA.isTalking) {
 		objPersonA.isTalking = false;
 		objPersonB.isTalking = true;
-		addSpeechBubble("Hm-hm! Hm-hm!", 1);
+		//addSpeechBubble("Hm-hm! Hm-hm!", 1);
+		addSpeechBubble(readLineFromFile(1, true), 1)
 	} else {
 		objPersonA.isTalking = true;
 		objPersonB.isTalking = false;
 		//addSpeechBubble("Hm-hm! Hm-hm!", 0);
-		addSpeechBubble("Yes, you are quite right, quite right indeed!", 0);
+		//addSpeechBubble("Yes, you are quite right, quite right indeed!", 0);
+		addSpeechBubble(readLineFromFile(0, true), 0)
 	}
 	
 	timeTillNext = 3 * room_speed; // reset counter

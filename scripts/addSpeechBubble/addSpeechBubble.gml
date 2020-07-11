@@ -1,4 +1,4 @@
-// addSpeechBubble(text, side)
+// addSpeechBubble(text, side) 0 is left, 1 is right
 var size = array_length_1d(objChat.speechText);
 
 // shift bubbles

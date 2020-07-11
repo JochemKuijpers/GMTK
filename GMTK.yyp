@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "1bec0629-92bb-4be5-9217-16927c170492",
+            "Value": {
+                "id": "ef18402a-12ed-4b40-b145-f381691283bd",
+                "resourcePath": "datafiles_yy\\personTwo.txt.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "27308217-17e6-48fd-b96b-581eca58efd5",
             "Value": {
                 "id": "6d39a9c4-4371-4dd6-9cb3-d64c03a447c8",
@@ -167,10 +175,26 @@
             }
         },
         {
+            "Key": "51894865-346f-423e-a7d3-dd69dda93779",
+            "Value": {
+                "id": "8cafbc20-7814-4431-bdf2-9f122f141607",
+                "resourcePath": "datafiles_yy\\personOne.txt.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "5cbdf0bb-c1ce-494a-b1eb-f2240500dde9",
             "Value": {
                 "id": "6e2e00bd-09fa-48ba-9abd-9c0bde49cd63",
                 "resourcePath": "scripts\\addSpeechBubble\\addSpeechBubble.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "682bc06c-b150-46a9-ba17-56abcb694e70",
+            "Value": {
+                "id": "b5cee16f-2c58-41f3-891f-d39c48f36dec",
+                "resourcePath": "scripts\\readLineFromFile\\readLineFromFile.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -204,6 +228,14 @@
                 "id": "eb4073b2-1a93-4909-a9b2-39b72ec81afd",
                 "resourcePath": "objects\\alternatePress\\alternatePress.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7d38947f-01fb-4c04-aacd-09ab17994629",
+            "Value": {
+                "id": "4d1ba6b9-17bb-4c41-8420-82e439f50b51",
+                "resourcePath": "datafiles_yy\\stressPersonTwo.txt.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -268,6 +300,14 @@
                 "id": "aca5c5ae-1325-4917-9333-d04421ba4b8c",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ab5e8f2a-9d50-4443-92b8-9117fc2464ab",
+            "Value": {
+                "id": "2ca279b0-c6c1-4b1f-9781-449747329fb9",
+                "resourcePath": "datafiles_yy\\stressPersonOne.txt.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -369,7 +409,8 @@
     ],
     "script_order": [
         "5cbdf0bb-c1ce-494a-b1eb-f2240500dde9",
-        "4c2e5648-b2d5-4230-b748-f05dd3dfb8a8"
+        "4c2e5648-b2d5-4230-b748-f05dd3dfb8a8",
+        "682bc06c-b150-46a9-ba17-56abcb694e70"
     ],
     "tutorial": ""
 }

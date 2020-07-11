@@ -1,7 +1,11 @@
-timeTillNext = 0;
+player.isTalking = false;
+npc.isTalking = false;
 
-objPersonA.isTalking = true;
-objPersonB.isTalking = false;
+scriptPosition = 0
+script = array_create(1000, "");
+scriptLength = loadScript(script, "test_script.txt");
 
-personOnePosition = 0
-personTwoPosition = 0
+interruptScript = array_create(1000, "");
+interruptScriptLength = 0;
+interruptScriptPosition = 0;
+isInterrupt = false;

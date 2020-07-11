@@ -1,0 +1,8 @@
+npc: Placeholder NPC 1
+player: Placeholder Player 1
+npc: Placeholder NPC 2
+player: Placeholder Player 2
+npc: Placeholder NPC 3
+player: Placeholder Player 3
+
+event: loop

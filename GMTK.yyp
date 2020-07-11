@@ -87,19 +87,19 @@
             }
         },
         {
-            "Key": "1bec0629-92bb-4be5-9217-16927c170492",
-            "Value": {
-                "id": "ef18402a-12ed-4b40-b145-f381691283bd",
-                "resourcePath": "datafiles_yy\\personTwo.txt.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "27308217-17e6-48fd-b96b-581eca58efd5",
             "Value": {
                 "id": "6d39a9c4-4371-4dd6-9cb3-d64c03a447c8",
                 "resourcePath": "objects\\stressBar\\stressBar.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2b310bb9-ac48-49b0-a0a5-a4d8f428be0f",
+            "Value": {
+                "id": "ad7bb434-cbff-4532-b3c4-b7a4f4800aca",
+                "resourcePath": "scripts\\loadScript\\loadScript.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -175,14 +175,6 @@
             }
         },
         {
-            "Key": "51894865-346f-423e-a7d3-dd69dda93779",
-            "Value": {
-                "id": "8cafbc20-7814-4431-bdf2-9f122f141607",
-                "resourcePath": "datafiles_yy\\personOne.txt.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "5cbdf0bb-c1ce-494a-b1eb-f2240500dde9",
             "Value": {
                 "id": "6e2e00bd-09fa-48ba-9abd-9c0bde49cd63",
@@ -191,11 +183,11 @@
             }
         },
         {
-            "Key": "682bc06c-b150-46a9-ba17-56abcb694e70",
+            "Key": "65280fb8-45e3-4796-bbd3-6ffa242c21a2",
             "Value": {
-                "id": "b5cee16f-2c58-41f3-891f-d39c48f36dec",
-                "resourcePath": "scripts\\readLineFromFile\\readLineFromFile.yy",
-                "resourceType": "GMScript"
+                "id": "e5e3f0a2-7e87-4cf2-83d9-fc36d59f9966",
+                "resourcePath": "datafiles_yy\\test_script.txt.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -231,11 +223,11 @@
             }
         },
         {
-            "Key": "7d38947f-01fb-4c04-aacd-09ab17994629",
+            "Key": "80aa1240-b1ce-46c6-bece-a2ed5349dd6b",
             "Value": {
-                "id": "4d1ba6b9-17bb-4c41-8420-82e439f50b51",
-                "resourcePath": "datafiles_yy\\stressPersonTwo.txt.yy",
-                "resourceType": "GMIncludedFile"
+                "id": "180dc21b-ade9-4612-9330-f319610d41d5",
+                "resourcePath": "scripts\\beginsWith\\beginsWith.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -303,26 +295,10 @@
             }
         },
         {
-            "Key": "ab5e8f2a-9d50-4443-92b8-9117fc2464ab",
-            "Value": {
-                "id": "2ca279b0-c6c1-4b1f-9781-449747329fb9",
-                "resourcePath": "datafiles_yy\\stressPersonOne.txt.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "b22b1a3e-3085-42a4-a87b-0896cb93c152",
-            "Value": {
-                "id": "4b8f8680-ba97-4b9d-b1cb-ff2eda63909a",
-                "resourcePath": "objects\\parPerson\\parPerson.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "ba45971b-d9c7-45b0-b006-36162cb4ecdb",
             "Value": {
                 "id": "a08c7803-970d-4473-b3a3-96e5e4afa0a2",
-                "resourcePath": "objects\\objPersonB\\objPersonB.yy",
+                "resourcePath": "objects\\npc\\npc.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -354,7 +330,7 @@
             "Key": "c9eed3b4-43a0-4842-b956-cc6a27fbf411",
             "Value": {
                 "id": "45cff33a-7345-486d-863d-0c09b138d601",
-                "resourcePath": "objects\\objPersonA\\objPersonA.yy",
+                "resourcePath": "objects\\player\\player.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -364,6 +340,14 @@
                 "id": "29ace772-4233-402f-b22d-1819decd87e0",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d505b842-19e7-435f-8a60-2b69a724e206",
+            "Value": {
+                "id": "9fc00bf9-d671-43d1-9b8e-4c157f444dd1",
+                "resourcePath": "datafiles_yy\\script.txt.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -410,7 +394,8 @@
     "script_order": [
         "5cbdf0bb-c1ce-494a-b1eb-f2240500dde9",
         "4c2e5648-b2d5-4230-b748-f05dd3dfb8a8",
-        "682bc06c-b150-46a9-ba17-56abcb694e70"
+        "2b310bb9-ac48-49b0-a0a5-a4d8f428be0f",
+        "80aa1240-b1ce-46c6-bece-a2ed5349dd6b"
     ],
     "tutorial": ""
 }

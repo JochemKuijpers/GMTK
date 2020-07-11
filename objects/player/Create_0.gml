@@ -1,0 +1,2 @@
+isTalking = false;
+isDistracted = false;

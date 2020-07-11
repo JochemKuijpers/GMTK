@@ -1,3 +1,0 @@
-Stress line 1 P2
-Stress line 2 P2
-Stress line 3 P2

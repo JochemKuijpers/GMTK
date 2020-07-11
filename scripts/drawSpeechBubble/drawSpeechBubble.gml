@@ -10,7 +10,7 @@ draw_set_color(c_white);
 draw_set_font(fnt_dialog);
 
 var width = 200;
-var height = string_height_ext(text, 12, width);
+var height = string_height_ext(text, 12, width - 2*ts);
 height = ceil(height / ts + 2) * ts;
 
 sy -= height;
@@ -56,6 +56,6 @@ for (var tx = sx; tx < sx + width; tx += ts) {
 	}
 }
 
-draw_text_ext(sx + 8, sy + 8, text, 12, width);
+draw_text_ext(sx + 8, sy + 8, text, 12, width - 2*ts);
 
 return height;

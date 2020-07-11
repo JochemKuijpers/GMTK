@@ -1,0 +1,75 @@
+npc: You’re here!
+player: Of course! It’s so good to see you!
+npc: I know you had to come out from Ezamor 7 to meet me here.
+player: Traffic was pretty light, so it was no problem for me.
+npc: How has after-education been treating you?
+player: As well as anyone else in this star-system I suppose.
+
+event: gen_anxiety
+npc: Are you ok?
+player: Just...a lot going on.
+npc: Do you want to go somewhere else?
+player: No, I...I should be fine.
+event: player_heavy_breath
+npc: Does that help?
+player: It is, thanks.
+npc: Take your time.
+player: I’m ok now. Where were we?
+event: end
+
+npc: Did you hear about the magnetic storm over Tin-non?
+player: Yeah! How fortunate the Observation Facility is there to study it!
+npc: I know! I heard the next one shouldn’t be for another 780 cycles!
+player: I can’t wait to hear about the data that comes of this historic event!
+npc: It’s going to be so exciting!
+player: How is your project with the summintime particles going?
+npc: Really great! Having some trouble with the out-of-date equipment, but we’re having success working around it.
+player: I remember that feeling.
+
+event: pen
+npc: All good?
+player: Yeah just...
+npc: Have you got something?
+player: I do! Let me just…
+npc: Cool, let’s get back to it.
+event: end
+
+npc: I have a good team though.
+player: Oh really? That’s good to hear!
+npc: Yeah, we have a Vinzerian with us now, her expertise is invaluable.
+player: Excellent, I’ve heard great things of the educational systems in that nebula.
+npc: Did you want anything to drink?
+player: What do they have?
+npc: Something they devised called ‘Lavender Lemonade’?
+player: Is it any good?
+npc: I’ve never had it myself, we can find out if you want.
+player: Maybe later.
+npc: I saw your reports on climate migrations the other day!
+player: You did?! What did you think?
+
+event: loud_pen
+event: npc_static
+player: I’m sorry I can’t?
+event: npc_concerned
+player: Hold on I just need?
+event player_loud
+npc: Is it too loud in here?
+player: It was, but I’ve got a handle on his now.
+npc: Did you catch what I said earlier?
+player: I didn’t, would you mind telling me again?
+event: end
+
+npc: It was fascinating!
+player: You really think so?
+npc: I never thought of it that way! Your metaphor using transmigratory birds was inspired!
+player: Oh, you don’t have to go that far.
+npc: Don’t be silly, it’s true!
+player: Thank you, it means a lot coming from you.
+npc: I’m sure I’m not alone in the sentiment.
+player: why
+npc: why
+player: why
+npc: why
+player: why
+npc: why
+player: why

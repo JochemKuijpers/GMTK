@@ -47,14 +47,6 @@
             }
         },
         {
-            "Key": "0bcf86e2-b3f0-4d0b-b0df-dc289ed8c942",
-            "Value": {
-                "id": "64fa6a19-4602-43ee-8e3b-c530717089e9",
-                "resourcePath": "views\\0bcf86e2-b3f0-4d0b-b0df-dc289ed8c942.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "1003f87f-9583-4783-be1b-39bca6c8ac09",
             "Value": {
                 "id": "80f7cfb6-5f5b-4e5c-a9d3-eb12a80788ae",
@@ -90,7 +82,7 @@
             "Key": "1b9a8951-b2d7-4f5b-8a0d-774ec036492b",
             "Value": {
                 "id": "acf16ce6-0de1-487c-8342-d0fdb89c9595",
-                "resourcePath": "sprites\\playerTalkingIdle\\playerTalkingIdle.yy",
+                "resourcePath": "sprites\\sprPersonA\\sprPersonA.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -111,14 +103,6 @@
             }
         },
         {
-            "Key": "323cf29e-d723-4382-b3b5-a9ab58e7f2f2",
-            "Value": {
-                "id": "8d95d400-7ce9-404a-b7f3-9d6148e7ac27",
-                "resourcePath": "sprites\\playerTalkingNervous\\playerTalkingNervous.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "3261677c-24b6-4d41-bd4d-ce8a55e41f26",
             "Value": {
                 "id": "3b7b127a-2c12-4fbe-a007-0c1ecbc96704",
@@ -132,22 +116,6 @@
                 "id": "fcf1d84b-8453-407f-a2bb-50cb7ef59253",
                 "resourcePath": "views\\341e9590-8a9f-4cce-848c-9e95e5cea375.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "35279865-07fe-4eab-be29-fc693b680f78",
-            "Value": {
-                "id": "6c0d1c66-d326-486f-849b-b0d44d7f409f",
-                "resourcePath": "sprites\\npcTalking\\npcTalking.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "35b51974-a0d9-4c43-8539-48e5d57f99c9",
-            "Value": {
-                "id": "aee0f11f-7072-4bb1-8910-01c76bb2c60f",
-                "resourcePath": "sprites\\playerPen\\playerPen.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -172,22 +140,6 @@
                 "id": "3b77939a-b0b0-45f8-9b84-6848767f0387",
                 "resourcePath": "views\\3ad8dced-041f-4eab-9925-a3e330f1aeea.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "3df4e0ab-a15e-49cd-9587-53a7383f41b0",
-            "Value": {
-                "id": "0f3c3dad-f78c-45eb-bdb1-d1d6a46bb2d4",
-                "resourcePath": "views\\3df4e0ab-a15e-49cd-9587-53a7383f41b0.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "40bbd073-751c-4ae9-80db-293210c1c6b7",
-            "Value": {
-                "id": "85362f0b-04e8-4d3f-a018-806c0af2e3fa",
-                "resourcePath": "sprites\\npcTalkingSplain\\npcTalkingSplain.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -223,14 +175,6 @@
             }
         },
         {
-            "Key": "5dce0ce4-59ef-4f2d-8e45-22057769663c",
-            "Value": {
-                "id": "da475591-6c0d-4c15-ac4e-e7999fc5acd4",
-                "resourcePath": "sprites\\playerBreathing\\playerBreathing.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "6fa40917-c6e3-4647-a41d-683432112031",
             "Value": {
                 "id": "a4d8322b-1ddb-4722-a4f1-5e26d9de578b",
@@ -251,22 +195,6 @@
             "Value": {
                 "id": "3b3a2953-a735-405d-8336-ffbb6e0f2928",
                 "resourcePath": "sprites\\sprSpeechBubble\\sprSpeechBubble.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "76bf7f1b-de91-40b9-9fb6-ec6e42391f99",
-            "Value": {
-                "id": "554bb678-1abc-454c-9ae1-54a210942a3e",
-                "resourcePath": "sprites\\playerLoud\\playerLoud.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "77ffb9f2-37f4-4e8c-ab70-544c1272b7ec",
-            "Value": {
-                "id": "abf7bdd1-b4f2-4be1-8d0e-a42fb8aa8f21",
-                "resourcePath": "sprites\\playerPenBreathing\\playerPenBreathing.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -335,14 +263,6 @@
             }
         },
         {
-            "Key": "a360915a-a707-400d-bac8-9d72362e48aa",
-            "Value": {
-                "id": "d2ccf421-3e2c-4bdb-a4ea-8dad04da41eb",
-                "resourcePath": "sprites\\playerLoudPenBreathing\\playerLoudPenBreathing.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "aca5c5ae-1325-4917-9333-d04421ba4b8c",
@@ -391,14 +311,6 @@
             }
         },
         {
-            "Key": "c67dcf91-be81-42b4-a521-1942ec384ad9",
-            "Value": {
-                "id": "714ba47e-1b22-47b8-8831-392407d9e672",
-                "resourcePath": "sprites\\playerLoudBreathing\\playerLoudBreathing.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "c9eed3b4-43a0-4842-b956-cc6a27fbf411",
             "Value": {
                 "id": "45cff33a-7345-486d-863d-0c09b138d601",
@@ -415,22 +327,6 @@
             }
         },
         {
-            "Key": "d51a9c56-48e2-48d7-a0ef-ccdae35f4132",
-            "Value": {
-                "id": "2147830d-ed68-4900-89d1-e195fbdf03d7",
-                "resourcePath": "views\\d51a9c56-48e2-48d7-a0ef-ccdae35f4132.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "d90f5900-5b7f-4b79-9e20-d59b772c219a",
-            "Value": {
-                "id": "676a4e2d-aa42-428b-b03a-0c56d8d0ff22",
-                "resourcePath": "sprites\\playerTalkingExcited\\playerTalkingExcited.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "db5769a3-ceeb-4199-9245-95cece822f92",
             "Value": {
                 "id": "190d3f64-c1d8-4701-867d-4cc6d97c29ae",
@@ -439,19 +335,19 @@
             }
         },
         {
+            "Key": "f132187b-b57f-48d9-9ec2-94c229402c00",
+            "Value": {
+                "id": "c2275c76-ec68-4c12-be37-b3f703a52576",
+                "resourcePath": "sprites\\sprPersonB\\sprPersonB.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "68d2f479-2610-4cf4-9167-226fa8b7cda1",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
-            }
-        },
-        {
-            "Key": "f4fa2b17-bcfa-4f8d-84ff-097df9ba6abc",
-            "Value": {
-                "id": "459717e0-583f-4808-b725-cd3ba39ad0b0",
-                "resourcePath": "sprites\\npcTalkingExited\\npcTalkingExited.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -468,14 +364,6 @@
                 "id": "e6082c46-f24b-49c7-bec5-8d84b260511e",
                 "resourcePath": "objects\\pressMultipleTimes\\pressMultipleTimes.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "fd22beaa-4cb5-42fe-bcdd-c88a22090487",
-            "Value": {
-                "id": "c4ad9597-64e2-40d6-a84a-4a6f8227ee04",
-                "resourcePath": "views\\fd22beaa-4cb5-42fe-bcdd-c88a22090487.yy",
-                "resourceType": "GMFolder"
             }
         }
     ],

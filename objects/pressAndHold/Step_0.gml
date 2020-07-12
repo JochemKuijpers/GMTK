@@ -23,15 +23,19 @@ if(stepsSincePressed >= 100 && isPlaying){
 if(keyboard_check(buttonOne) && keyboard_check(buttonTwo)){
 	stepsSincePressed += 1
 	
-	audio_sound_gain(mainLoud, 0, 100)
-	audio_sound_gain(mainMuted, 1, 100)
+	if(isPlaying){
+		audio_sound_gain(mainLoud, 0, 100)
+		audio_sound_gain(mainMuted, 1, 100)
+	}
 }
 
 if(keyboard_check_released(buttonOne) || keyboard_check_released(buttonTwo)){
 	stepsSincePressed = 0
 	
-	audio_sound_gain(mainLoud, 1, 100)
-	audio_sound_gain(mainMuted, 0, 100)
+	if(isPlaying){
+		audio_sound_gain(mainLoud, 1, 100)
+		audio_sound_gain(mainMuted, 0, 100)
+	}
 }
 
 if (!isPlaying) {

@@ -1,8 +1,8 @@
 isPlaying = false
 timesPressed = 0
-lastPressed = ord("A")
-buttonToPressOne = ord("A")
-buttonToPressTwo = ord("S")
+lastPressed = vk_down;
+buttonToPressOne = vk_up;
+buttonToPressTwo = vk_down;
 timesToPress = 5
 
 timeSinceDeactivated = 0;

@@ -4,11 +4,13 @@ if(stressBar.currentStress > 750){
 	isStressed = false
 }
 
-if (keyboard_check_pressed(vk_space)) {
+scriptTimer += 1;
+
+if (scriptTimer > 3 * room_speed || keyboard_check_pressed(vk_space)) {
 	
 	if (pressMultipleTimes.isPlaying) {
 		if (saidCantFocus) {
-			addSpeechBubble("Press W multiple times", 1);
+			addSpeechBubble("Are you OK?", 1);
 			saidCantFocus = false;
 		} else {
 			addSpeechBubble("Can't.. focus..", 0);
@@ -16,7 +18,7 @@ if (keyboard_check_pressed(vk_space)) {
 		}
 	} else if (pressAndHold.isPlaying) {
 		if (saidCantFocus) {
-			addSpeechBubble("Hold E and R", 1);
+			addSpeechBubble("I'm here for you", 1);
 			saidCantFocus = false;
 		} else {
 			addSpeechBubble("Can't.. focus..", 0);
@@ -24,7 +26,7 @@ if (keyboard_check_pressed(vk_space)) {
 		}
 	} else if (alternatePress.isPlaying) {
 		if (saidCantFocus) {
-			addSpeechBubble("Alternate A and S", 1);
+			addSpeechBubble("Take your time", 1);
 			saidCantFocus = false;
 		} else {
 			addSpeechBubble("Can't.. focus..", 0);
@@ -36,6 +38,7 @@ if (keyboard_check_pressed(vk_space)) {
 		saidCantFocus = false;
 	}
 	
+	scriptTimer = 0;
 	
 	with (stressBar) {
 		// trigger stress bar modification

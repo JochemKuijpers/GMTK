@@ -1,7 +1,7 @@
 if(isPlaying){
-	image_speed = 8 / (room_speed / 2)
+	image_index = image_index % 4;
 }else{
-	image_index = 0
+	image_index = image_index % 4 + 4;
 }
 
 if(!isPlaying && keyboard_check_pressed(ord("Q"))){

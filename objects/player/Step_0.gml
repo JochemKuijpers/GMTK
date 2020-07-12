@@ -19,9 +19,12 @@ if(alternatePress.isPlaying && pressAndHold.isPlaying && pressMultipleTimes.isPl
 }else if(alternatePress.isPlaying){
 	ani_start = 2
 	ani_end = 3
-}else{
+}else if (isTalking) {
 	ani_start = 0
 	ani_end = 1
+} else {
+	ani_start = 1;
+	ani_end = 1;
 }
 
 if(ani_current < ani_start){

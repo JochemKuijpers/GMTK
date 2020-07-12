@@ -5,18 +5,6 @@ player: Traffic was pretty light, so it was no problem for me.
 npc: How has after-education been treating you?
 player: As well as anyone else in this star-system I suppose.
 
-event: gen_anxiety
-npc: Are you ok?
-player: Just...a lot going on.
-npc: Do you want to go somewhere else?
-player: No, I...I should be fine.
-event: player_heavy_breath
-npc: Does that help?
-player: It is, thanks.
-npc: Take your time.
-player: I’m ok now. Where were we?
-event: end
-
 npc: Did you hear about the magnetic storm over Tin-non?
 player: Yeah! How fortunate the Observation Facility is there to study it!
 npc: I know! I heard the next one shouldn’t be for another 780 cycles!
@@ -25,14 +13,6 @@ npc: It’s going to be so exciting!
 player: How is your project with the summintime particles going?
 npc: Really great! Having some trouble with the out-of-date equipment, but we’re having success working around it.
 player: I remember that feeling.
-
-event: pen
-npc: All good?
-player: Yeah just...
-npc: Have you got something?
-player: I do! Let me just…
-npc: Cool, let’s get back to it.
-event: end
 
 npc: I have a good team though.
 player: Oh really? That’s good to hear!
@@ -46,18 +26,6 @@ npc: I’ve never had it myself, we can find out if you want.
 player: Maybe later.
 npc: I saw your reports on climate migrations the other day!
 player: You did?! What did you think?
-
-event: loud_pen
-event: npc_static
-player: I’m sorry I can’t?
-event: npc_concerned
-player: Hold on I just need?
-event player_loud
-npc: Is it too loud in here?
-player: It was, but I’ve got a handle on his now.
-npc: Did you catch what I said earlier?
-player: I didn’t, would you mind telling me again?
-event: end
 
 npc: It was fascinating!
 player: You really think so?
@@ -73,3 +41,5 @@ npc: why
 player: why
 npc: why
 player: why
+
+event: end

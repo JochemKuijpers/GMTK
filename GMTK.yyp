@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "56ab4146-61d8-4ff0-84f7-555c908d257e",
+            "Value": {
+                "id": "bc80f1fa-9fec-4f95-9fbb-6bbc05e19565",
+                "resourcePath": "sprites\\sprHoldPrompt\\sprHoldPrompt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "57c2d1ad-bc00-458e-8c4d-9eb7465e89c0",
             "Value": {
                 "id": "5db9faea-b6c6-44be-86f9-90d48b1ed439",
@@ -231,6 +239,22 @@
             }
         },
         {
+            "Key": "78317d3a-7ce6-4772-b5fb-cee53224d362",
+            "Value": {
+                "id": "a0edeb30-2526-4941-ae56-43550493f2c3",
+                "resourcePath": "sprites\\sprMousePrompt\\sprMousePrompt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "79931be1-b2f5-4ad0-8990-017106882b10",
+            "Value": {
+                "id": "a5d0b4b8-abc6-49ad-a656-020eebab2786",
+                "resourcePath": "sprites\\npcTalking\\npcTalking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7b4a24ae-e964-4db5-a7a5-54bd1c462ce4",
             "Value": {
                 "id": "eb4073b2-1a93-4909-a9b2-39b72ec81afd",
@@ -271,11 +295,27 @@
             }
         },
         {
+            "Key": "8c019959-013a-480b-9f6c-a7a70cc7c988",
+            "Value": {
+                "id": "42aa6055-8632-4ac7-988e-0adfdb073fdb",
+                "resourcePath": "objects\\holdPrompt\\holdPrompt.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8f594ccd-3a81-4599-b651-dc235cd43cc3",
             "Value": {
                 "id": "0cb1f313-8dfc-41bf-88b3-c9f03cda810b",
                 "resourcePath": "fonts\\fnt_dialog\\fnt_dialog.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "90cea0d6-4110-4ae3-91ec-637bb5a72fac",
+            "Value": {
+                "id": "e89647c1-5114-41fe-a9f1-9b4f3a82609c",
+                "resourcePath": "sprites\\sprAlternatePrompt\\sprAlternatePrompt.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

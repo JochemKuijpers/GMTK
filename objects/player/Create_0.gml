@@ -14,5 +14,5 @@ loud_pen = array_create(2, [17, 18])
 ani_start = 0
 ani_end = 0
 ani_current = 0
-ani_speed = 50
+ani_speed = 25
 timeSinceAni = 0

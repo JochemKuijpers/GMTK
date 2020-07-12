@@ -1,7 +1,7 @@
 isPlaying = false
 stepsSincePressed = 0
-buttonOne = ord("E")
-buttonTwo = ord("R")
+buttonOne = vk_space
+buttonTwo = vk_shift
 
 stressModifier = 0
 

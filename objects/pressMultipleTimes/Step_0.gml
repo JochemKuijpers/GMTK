@@ -1,11 +1,4 @@
-if(keyboard_check_pressed(ord("Q"))){
-	if(!isPlaying){
-		isPlaying = true
-		timesPressed = 0
-	}
-}
-
-if(keyboard_check_pressed(buttonToPress)){
+if(mouse_check_button_pressed(mb_left)) {
 	if(isPlaying){
 		timesPressed += 1
 	}
@@ -18,10 +11,9 @@ if(keyboard_check_pressed(buttonToPress)){
 }
 
 if(isPlaying){
-	image_speed = 8 / room_speed
+	visible = true;
 }else{
-	image_speed = 0 //Speed to 0
-	image_index = 0 //Sets to first frame
+	visible = false;
 }
 
 if (!isPlaying) {

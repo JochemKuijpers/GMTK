@@ -50,13 +50,14 @@ if (scriptTimer > 3 * room_speed) {
 		event_user(0);
 		saidCantFocus = false;
 		scriptTimer = -999999; // let objChat reset this to 0
-	}
-	
-	with (stressBar) {
-		// trigger stress bar modification
-		event_user(0);
 		
-		// maybe trigger a distraction
-		event_user(1);
+		with (stressBar) {
+			// trigger stress bar modification
+			event_user(0);
+		
+			// maybe trigger a distraction
+			event_user(1);
+		}
+		
 	}
 }

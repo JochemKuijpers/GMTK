@@ -31,6 +31,22 @@
     },
     "resources": [
         {
+            "Key": "0341a458-e1ab-4c2c-a589-ce4bb0f4d697",
+            "Value": {
+                "id": "8cbdc215-db57-4af6-8829-1b5c489c0476",
+                "resourcePath": "objects\\pen_trans\\pen_trans.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "03c12261-2949-45ef-a665-0e69123a462d",
+            "Value": {
+                "id": "c941768d-51d0-4fd3-ab99-8647b9501626",
+                "resourcePath": "objects\\o_music\\o_music.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "04b3d3f2-18a9-49d4-a6de-893452b57934",
             "Value": {
                 "id": "8770a1ad-41cc-4900-b8f0-5a947efddd02",
@@ -236,6 +252,14 @@
                 "id": "5db9faea-b6c6-44be-86f9-90d48b1ed439",
                 "resourcePath": "sprites\\background\\background.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5a7ff778-414f-4781-96e5-b70475baca72",
+            "Value": {
+                "id": "90210703-0d5d-4fc6-8abe-3b9fc82eeea3",
+                "resourcePath": "objects\\menu_transition\\menu_transition.yy",
+                "resourceType": "GMObject"
             }
         },
         {

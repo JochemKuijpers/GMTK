@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "04b3d3f2-18a9-49d4-a6de-893452b57934",
+            "Value": {
+                "id": "8770a1ad-41cc-4900-b8f0-5a947efddd02",
+                "resourcePath": "sounds\\mainLoud\\mainLoud.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "09bce166-9bc4-4f69-b3e5-e1487d1c78a4",
             "Value": {
                 "id": "86875c87-57c7-4f81-b861-436e9d10ae44",
@@ -95,6 +103,14 @@
             }
         },
         {
+            "Key": "1f477d11-f9af-4ddc-a6f0-3bd1b6c0a9bc",
+            "Value": {
+                "id": "cf2791ef-3049-4cdd-a6d1-a931f2b9895f",
+                "resourcePath": "sounds\\mainMuted\\mainMuted.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "27308217-17e6-48fd-b96b-581eca58efd5",
             "Value": {
                 "id": "6d39a9c4-4371-4dd6-9cb3-d64c03a447c8",
@@ -156,6 +172,14 @@
                 "id": "3b77939a-b0b0-45f8-9b84-6848767f0387",
                 "resourcePath": "views\\3ad8dced-041f-4eab-9925-a3e330f1aeea.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "416f1c6f-386d-42e6-b43f-4f0f2f0e6edc",
+            "Value": {
+                "id": "02f6b4a1-4c43-449c-8f5b-eb87d630b7ab",
+                "resourcePath": "sounds\\mainTheme\\mainTheme.yy",
+                "resourceType": "GMSound"
             }
         },
         {

@@ -15,3 +15,6 @@ if (alternatePress.isPlaying) {
 // clamp stress between 0 and 1000
 currentStress = max(0, min(999, currentStress));
 image_index = currentStress / 50;
+
+objCtrl.isVisible = currentStress >= 750
+object_set_visible(objCtrl, currentStress >= 750)

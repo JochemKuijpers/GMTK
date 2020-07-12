@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "2ac988d7-8365-45c2-8807-dfb104f357f6",
+            "Value": {
+                "id": "5a67b820-3893-45cb-9b24-671c6b638023",
+                "resourcePath": "rooms\\menu_screen\\menu_screen.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "2b310bb9-ac48-49b0-a0a5-a4d8f428be0f",
             "Value": {
                 "id": "ad7bb434-cbff-4532-b3c4-b7a4f4800aca",
@@ -207,6 +215,14 @@
             }
         },
         {
+            "Key": "4e591bfc-8777-41de-95b7-b570aec6ec2a",
+            "Value": {
+                "id": "eb3c07a7-2ce4-4d7b-9418-0ce5f04445a5",
+                "resourcePath": "rooms\\loud_tut\\loud_tut.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "56ab4146-61d8-4ff0-84f7-555c908d257e",
             "Value": {
                 "id": "bc80f1fa-9fec-4f95-9fbb-6bbc05e19565",
@@ -279,6 +295,14 @@
             }
         },
         {
+            "Key": "7a419a87-f559-413f-9cc9-835df90e96d1",
+            "Value": {
+                "id": "19f332c7-2556-4e5d-bbfd-54f2548d5cdb",
+                "resourcePath": "rooms\\breath_tut\\breath_tut.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "7b4a24ae-e964-4db5-a7a5-54bd1c462ce4",
             "Value": {
                 "id": "eb4073b2-1a93-4909-a9b2-39b72ec81afd",
@@ -292,6 +316,14 @@
                 "id": "180dc21b-ade9-4612-9330-f319610d41d5",
                 "resourcePath": "scripts\\beginsWith\\beginsWith.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "82ad4730-058e-4d88-ae28-927f921f1145",
+            "Value": {
+                "id": "60efdf6f-45fd-4172-8f94-ad8f7cace4b7",
+                "resourcePath": "sprites\\title_sprite\\title_sprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -492,6 +524,14 @@
                 "id": "68d2f479-2610-4cf4-9167-226fa8b7cda1",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f41ff30d-fb23-408d-805c-69a376cfb112",
+            "Value": {
+                "id": "d0800c20-1be6-4596-a40a-4c937fdc977c",
+                "resourcePath": "rooms\\pen_tut\\pen_tut.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

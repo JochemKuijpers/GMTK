@@ -1,0 +1,9 @@
+npc: Are you ok?
+player: Just...a lot going on.
+npc: Do you want to go somewhere else?
+player: No, I... I should be fine.
+player: ...
+npc: Does that help?
+player: It is, thanks.
+npc: Take your time.
+player: I’m ok now. Where were we?

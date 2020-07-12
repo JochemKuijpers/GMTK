@@ -1,0 +1,5 @@
+npc: All good?
+player: Yeah just...
+npc: Have you got something?
+player: I do! Let me just... [pen click]
+npc: Cool, let’s get back to it.

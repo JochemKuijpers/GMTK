@@ -1,0 +1,8 @@
+npc: [inaudible]
+player: I’m sorry I can’t-
+npc: [inaudible]
+player: Hold on I just need-
+npc: Is it too loud in here?
+player: It was, but I’ve got a handle on his now.
+npc: Did you catch what I said earlier?
+player: I didn’t, would you mind telling me again?

@@ -1,7 +1,7 @@
 /// @description Modify stress randomly
 
 if (stressIncreasing) {
-	currentStress += random(10);
+	currentStress += random(20);
 } else {
 	currentStress -= random(10);
 }

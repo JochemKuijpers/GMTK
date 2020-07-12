@@ -1,5 +1,5 @@
 if(isVisible) {
-	stressBar.currentStress -= 250
+	stressBar.currentStress -= 750
 	pressMultipleTimes.isPlaying = false
 	pressAndHold.isPlaying = false
 	alternatePress.isPlaying = false

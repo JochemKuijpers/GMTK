@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "33851de0-f44c-4a6d-99b0-e7933ed787ef",
+            "Value": {
+                "id": "981df990-7d20-4e05-b33d-24297385af49",
+                "resourcePath": "datafiles_yy\\event_noise.txt.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "341e9590-8a9f-4cce-848c-9e95e5cea375",
             "Value": {
                 "id": "fcf1d84b-8453-407f-a2bb-50cb7ef59253",
@@ -423,6 +431,14 @@
             }
         },
         {
+            "Key": "9e777948-3889-470b-b40d-b530cb85f3e8",
+            "Value": {
+                "id": "990dbfe5-356b-48b2-b016-f699a22d71b6",
+                "resourcePath": "datafiles_yy\\event_pen.txt.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "9ea37590-d4cb-4ca6-a483-2dadab791dfc",
             "Value": {
                 "id": "4033d9f8-f9c9-44cb-bb51-94b4a7663c6c",
@@ -572,6 +588,14 @@
                 "id": "e6082c46-f24b-49c7-bec5-8d84b260511e",
                 "resourcePath": "objects\\pressMultipleTimes\\pressMultipleTimes.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fe0f5a0e-271b-4e92-b40d-d7a795708924",
+            "Value": {
+                "id": "7acdce70-82eb-40eb-b47f-86d8df2d1bb6",
+                "resourcePath": "datafiles_yy\\event_breathing.txt.yy",
+                "resourceType": "GMIncludedFile"
             }
         }
     ],

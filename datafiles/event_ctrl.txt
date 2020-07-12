@@ -1,3 +1,4 @@
 player: Actually, I’m a little overwhelmed. Is it too much to ask-
 npc: Not at all
 player: Thank you Bluminth.
+player: ...

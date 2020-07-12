@@ -1,4 +1,4 @@
-npc: You’re here!
+﻿npc: You’re here!
 player: Of course! It’s so good to see you!
 npc: I know you had to come out from Ezamor 7 to meet me here.
 player: Traffic was pretty light, so it was no problem for me.
@@ -34,12 +34,23 @@ player: Oh, you don’t have to go that far.
 npc: Don’t be silly, it’s true!
 player: Thank you, it means a lot coming from you.
 npc: I’m sure I’m not alone in the sentiment.
-player: why
-npc: why
-player: why
-npc: why
-player: why
-npc: why
-player: why
+
+player: How has your partner been? I heard xe was struggling with their health.
+npc: Oh xe are much better now!
+player: That’s such a relief!
+npc: Yes, it was much less critical than we expected.
+player: Good, I’m so pleased for you both.
+npc: We’re very fortunate and I’m very thankful.
+player: How did the seasonal aphelion festival go back home?
+npc: It was beautiful!
+player: Do they still host the Ice Dances on the southern lake?
+npc: It was beautiful, I wish you could have seen the celebration.
+player: Maybe I’ll make it in time for the perihelion festival next year.
+npc: That would be wonderful!
+player: I remember the fireworks from last time I came.
+npc: Those were the ones that reacted with the lower atmosphere?
+player: Yeah, the chemical reaction replicated the Givemranch galaxy.
+npc: I remember that! The colors were so beautiful!
+
 
 event: end

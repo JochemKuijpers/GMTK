@@ -1,6 +1,8 @@
 if(mouse_check_button_pressed(mb_left)) {
 	if(isPlaying){
 		timesPressed += 1
+		
+		audio_play_sound(penClick, 0, 0)
 	}
 	show_debug_message(timesPressed)
 	

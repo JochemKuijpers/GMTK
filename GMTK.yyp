@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "8409607a-6890-464e-abcf-4665b63325f3",
+            "Value": {
+                "id": "4e2e9556-6d1a-46b6-9250-d5964086dcf5",
+                "resourcePath": "sounds\\penClick\\penClick.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "840f635f-50c0-4c80-ba9f-79fbfc7036a0",
             "Value": {
                 "id": "e1129d20-3b37-4a73-86bc-d0ef400807a7",

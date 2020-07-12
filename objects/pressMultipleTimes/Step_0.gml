@@ -6,8 +6,9 @@ if(keyboard_check_pressed(ord("Q"))){
 }
 
 if(keyboard_check_pressed(buttonToPress)){
-	timesPressed += 1
-	
+	if(isPlaying){
+		timesPressed += 1
+	}
 	show_debug_message(timesPressed)
 	
 	if(timesPressed >= 5){

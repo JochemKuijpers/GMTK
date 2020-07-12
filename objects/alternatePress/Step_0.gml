@@ -26,7 +26,7 @@ if(keyboard_check_pressed(buttonToPressOne)){
 		lastPressed = ord("A")
 		timesPressed += 1
 	}
-	show_debug_message(lastPressed)
+	//show_debug_message(lastPressed)
 }
 
 if(keyboard_check_pressed(buttonToPressTwo)){
@@ -37,10 +37,10 @@ if(keyboard_check_pressed(buttonToPressTwo)){
 		lastPressed = ord("S")
 		timesPressed += 1
 	}
-	show_debug_message(lastPressed)
+	//show_debug_message(lastPressed)
 }
 
-if(timesPressed >= 5 && isPlaying){
+if(timesPressed >= timesToPress && isPlaying){
 	isPlaying = !isPlaying
 	timesPressed = 0
 }

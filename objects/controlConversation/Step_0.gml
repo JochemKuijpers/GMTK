@@ -9,31 +9,29 @@ scriptTimer += 1;
 if (scriptTimer > 3 * room_speed) {
 	
 	if (pressMultipleTimes.isPlaying) {
-		if (saidCantFocus) {
-			addSpeechBubble("Are you OK?", 1);
-			saidCantFocus = false;
-		} else {
-			addSpeechBubble("Can't.. focus..", 0);
-			saidCantFocus = true;
+		penCounter += 1;
+		if (penCounter > 4) {
+			// interrupt with pen
+			penCounter = 0;
 		}
 	} else if (pressAndHold.isPlaying) {
-		if (saidCantFocus) {
-			addSpeechBubble("I'm here for you", 1);
-			saidCantFocus = false;
-		} else {
-			addSpeechBubble("Can't.. focus..", 0);
-			saidCantFocus = true;
+		noiseCounter += 1;
+		if (noiseCounter > 4) {
+			// interrupt with sound
+			noiseCounter = 0;
 		}
 	} else if (alternatePress.isPlaying) {
-		if (saidCantFocus) {
-			addSpeechBubble("Take your time", 1);
-			saidCantFocus = false;
-		} else {
-			addSpeechBubble("Can't.. focus..", 0);
-			saidCantFocus = true;
+		breathingCounter += 1;
+		if (breathingCounter > 4) {
+			// interrupt with breathing
+			breathingCounter = 0;
 		}
 	} else {	
 		// advance script
+		penCounter = 0;
+		noiseCounter = 0;
+		breathingCounter = 0;
+		
 		event_user(0);
 		saidCantFocus = false;
 	}

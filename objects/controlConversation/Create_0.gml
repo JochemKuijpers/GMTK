@@ -12,4 +12,8 @@ isInterrupt = false;
 
 saidCantFocus = false;
 
+breathingCounter = 0;
+penCounter = 0;
+noiseCounter = 0;
+
 scriptTimer = 999999;

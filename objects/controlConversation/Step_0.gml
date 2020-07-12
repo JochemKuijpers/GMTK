@@ -6,7 +6,7 @@ if(stressBar.currentStress > 750){
 
 scriptTimer += 1;
 
-if (scriptTimer > 3 * room_speed || keyboard_check_pressed(vk_space)) {
+if (scriptTimer > 3 * room_speed) {
 	
 	if (pressMultipleTimes.isPlaying) {
 		if (saidCantFocus) {

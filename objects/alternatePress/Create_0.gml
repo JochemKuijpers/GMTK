@@ -5,4 +5,4 @@ buttonToPressOne = ord("A")
 buttonToPressTwo = ord("S")
 timesToPress = 5
 
-stressModifier = 0
+timeSinceDeactivated = 0;

@@ -1,17 +1,7 @@
 if(isPlaying){
 	image_speed = 8 / (room_speed / 2)
-	if(stressModifier != 1){
-		stressBar.stressModifier -= stressModifier
-		stressModifier = 1
-		stressBar.stressModifier += stressModifier
-	}
 }else{
 	image_index = 0
-	if(stressModifier != 0){
-		stressBar.stressModifier -= stressModifier
-		stressModifier = 0
-		stressBar.stressModifier += stressModifier
-	}
 }
 
 if(!isPlaying && keyboard_check_pressed(ord("Q"))){
@@ -30,4 +20,8 @@ if(keyboard_check_released(buttonOne) || keyboard_check_released(buttonTwo)){
 	stepsSincePressed = 0
 }
 
-//show_debug_message(isPlaying)
+if (!isPlaying) {
+	timeSinceDeactivated += 1;
+} else {
+	timeSinceDeactivated = 0;
+}

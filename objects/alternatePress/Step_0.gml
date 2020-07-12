@@ -1,17 +1,7 @@
 if(isPlaying){
 	image_index = 1
-	if(stressModifier != 0){
-		stressBar.stressModifier += stressModifier
-		stressModifier = 0
-		stressBar.stressModifier -= stressModifier
-	}
 }else{
 	image_index = 0
-	if(stressModifier != 1){
-		stressBar.stressModifier += stressModifier
-		stressModifier = 1
-		stressBar.stressModifier -= stressModifier
-	}
 }
 
 if(keyboard_check_pressed(ord("Q"))){
@@ -23,7 +13,7 @@ if(keyboard_check_pressed(buttonToPressOne)){
 		timesPressed = 0
 		show_debug_message("Reset in A")
 	}else{
-		lastPressed = ord("A")
+		lastPressed = buttonToPressOne
 		timesPressed += 1
 	}
 	//show_debug_message(lastPressed)
@@ -34,7 +24,7 @@ if(keyboard_check_pressed(buttonToPressTwo)){
 		timesPressed = 0
 		show_debug_message("Reset in S")
 	}else{
-		lastPressed = ord("S")
+		lastPressed = buttonToPressTwo
 		timesPressed += 1
 	}
 	//show_debug_message(lastPressed)
@@ -43,4 +33,10 @@ if(keyboard_check_pressed(buttonToPressTwo)){
 if(timesPressed >= timesToPress && isPlaying){
 	isPlaying = !isPlaying
 	timesPressed = 0
+}
+
+if (!isPlaying) {
+	timeSinceDeactivated += 1;
+} else {
+	timeSinceDeactivated = 0;
 }

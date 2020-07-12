@@ -9,3 +9,5 @@ interruptScript = array_create(1000, "");
 interruptScriptLength = 0;
 interruptScriptPosition = 0;
 isInterrupt = false;
+
+saidCantFocus = false;

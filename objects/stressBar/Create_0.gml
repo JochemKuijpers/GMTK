@@ -1,13 +1,13 @@
-currentStress = 1000
-
-stressModifier = -1
+currentStress = 0
+stressIncreasing = true;
+increaseDecreaseTimer = 10;
 
 randomize()
 
 //% chance at no stress 0->1
-loudMusicChance = .1
-fidgetChance = .2
-heavyBreathChance = .3
+loudMusicChance = .05
+fidgetChance = .1
+heavyBreathChance = .15
 
 chanceModif = 0;
 

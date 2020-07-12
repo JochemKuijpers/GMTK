@@ -13,7 +13,7 @@ for (var i = 0; i < size; i += 1) {
 	}
 	
 	if (text != "") {
-		height += drawSpeechBubble(x - side * 32, y - speechAnim - height, text, array_get(speechSide, i));
+		height += drawSpeechBubble(x - (1 - side) * 32, y - speechAnim - height, text, array_get(speechSide, i));
 		height += 4; // separation between bubbles
 	}
 }

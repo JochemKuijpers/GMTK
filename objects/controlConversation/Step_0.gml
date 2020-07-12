@@ -38,7 +38,7 @@ if (scriptTimer > 3 * room_speed) {
 		saidCantFocus = false;
 	}
 	
-	scriptTimer = 0;
+	scriptTimer = -999999; // let objChat reset this to 0
 	
 	with (stressBar) {
 		// trigger stress bar modification
